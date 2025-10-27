@@ -40,11 +40,12 @@ canvas {
   font-size: 1rem;
   width: 260px;
   outline: none;
-  transition: border-color 0.2s;
+  transition: border-color 0.2s, border-width 0.2s;
 }
+.search-bar:hover,
 .search-bar:focus {
   border-color: #9d00ff;
-  border-width: 1px;
+  border-width: 3px;
 }
 .quick-apps-header {
   width: 340px;
